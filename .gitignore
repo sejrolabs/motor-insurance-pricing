@@ -1,0 +1,71 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+setup_project.py
+# ==============================
+# Virtual environment
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Data files
+# ==============================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# ==============================
+# Model artifacts
+# ==============================
+models/*.pkl
+models/*.joblib
+models/*.model
+*.h5
+*.pt
+*.pth
+
+# ==============================
+# Reports and temporary files
+# ==============================
+reports/*.pdf
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# Testing and code quality
+# ==============================
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# IDE and operating system
+# ==============================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
